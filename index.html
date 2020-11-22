@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			img {
+				width: 400px;
+				height: auto;
+				margin: 0 auto;
+				display: block;
+				
+			}
+			img:hover {
+				-webkit-filter:none
+				
+			}
+			.img1 {
+				/* 滤镜属性
+					 grayscale:设置灰度 ，1 就是百分之百灰度
+					 */
+					-webkit-filter: grayscale(2);
+					 
+				}
+				.img2 {
+					/* 滤镜属性
+						brightness:设置亮度 ，1 就是正常亮度
+						 */
+						-webkit-filter: brightness(2);
+						 
+				}
+				.img3 {
+					/* 滤镜属性
+						sepia:设置褐色 ，1 就是百分之百褐色 正常为0
+						 */
+						-webkit-filter: sepia(1)
+					 
+				}
+				.img4 {
+					/* 模糊度 
+					blur:以像素为单位 
+					*/
+					-webkit-filter: blur(10px)
+				}
+				.img5 {
+					/* 对比度
+					contrast:对比度 ，正常为1 调为0变为灰色
+					*/
+					-webkit-filter: contrast(2)
+				}
+				.img6 {
+					/* 饱和度
+					 saturate :饱和度 正常为1
+					*/
+					-webkit-filter: saturate(2)
+				}
+				.img7 {
+					/* 胶片
+					 invert  正常为1
+					*/
+					-webkit-filter: invert(1)
+				}
+				.img8 {
+					-webkit-filter: brightness(20) blur(3px);
+					transition: all 5s; 
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="img/yao.jpg" >
+		<img class="img2" src="img/yao.jpg" >
+		<img class="img3" src="img/yao.jpg" >
+		<img class="img4" src="img/yao.jpg" >
+		<img class="img5" src="img/yao.jpg" >
+		<img class="img6" src="img/yao.jpg" >
+		<img class="img7" src="img/yao.jpg" >
+		<img class="img8" src="img/yao.jpg" >
+	</body>
+</html>
